@@ -2,9 +2,12 @@ __pycache__
 .vscode
 .idea
 
-all excels
-all resumes
-logs
+all excels/*
+!all excels/.gitkeep
+all resumes/*
+!all resumes/.gitkeep
+logs/*
+!logs/.gitkeep
 
 old
 
