@@ -1,6 +1,15 @@
 # Automated LinkedIn Job Applier
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Selenium](https://img.shields.io/badge/-selenium-%2343B02A?style=for-the-badge&logo=selenium&logoColor=white)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![OpenAI](https://img.shields.io/badge/chatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=google%20gemini&logoColor=white)
+![Bot Evasion](https://img.shields.io/badge/Bot%20Evasion-Stealth-red?style=for-the-badge)
+![Autofill](https://img.shields.io/badge/Autonomous-Job%20Applier-blue?style=for-the-badge)
+
 An intelligent, heavily automated Python application designed to streamline the job hunt by autonomously applying to LinkedIn job listings. This project acts as a smart bot that parses LinkedIn's "Easy Apply" job portal, extracts relevant questions, and autonomously submits personalized applications.
+
 
 ## What This Project Is Used For
 
