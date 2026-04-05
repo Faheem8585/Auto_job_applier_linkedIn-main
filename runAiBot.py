@@ -1206,7 +1206,7 @@ def main() -> None:
             "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt",
             ])
         timeSaved = (easy_applied_count * 80) + (external_jobs_count * 20) + (skip_count * 10)
-        msg = f"{quotes}\n"
+        msg = f"{quotes}\n\nBest regards,\nMuhammad Faheem Arshad\nhttps://www.linkedin.com/in/muhammadfaheemarshad99/\n\n"
         timeSavedMsg = ""
         if timeSaved > 0:
             timeSaved += 60
