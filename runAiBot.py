@@ -91,8 +91,7 @@ def is_logged_in_LN() -> bool:
     * Returns: `True` if user is logged-in or `False` if not
     '''
     if driver.current_url == "https://www.linkedin.com/feed/": return True
-    if try_linkText(driver, "Sign in"): return False
-    if try_xp(driver, '//button[@type="submit" and contains(text(), "Sign in")]'):  return False
+    if try_xp(driver, '//input[@id="username"]'):  return False
     if try_linkText(driver, "Join now"): return False
     print_lg("Didn't find Sign in link, so assuming user is logged in!")
     return True
@@ -125,7 +124,7 @@ def login_LN() -> None:
             print_lg("Couldn't find password field.")
             # print_lg(e)
         # Find the login submit button and click it
-        driver.find_element(By.XPATH, '//button[@type="submit" and contains(text(), "Sign in")]').click()
+        driver.find_element(By.XPATH, '//button[@type="submit"]').click()
     except Exception as e1:
         try:
             profile_button = find_by_class(driver, "profile__details")
